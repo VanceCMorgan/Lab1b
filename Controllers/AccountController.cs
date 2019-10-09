@@ -77,7 +77,6 @@ namespace Lab1B.Controllers
             {
                 return View("Error", new ErrorViewModel { RequestId = "Failed to create user!" });
             }
-            /**
             //add roles
             result = await _roleManager.CreateAsync(new IdentityRole("Employee"));
             if (!result.Succeeded)
@@ -90,7 +89,6 @@ namespace Lab1B.Controllers
             {
                 return View("Error", new ErrorViewModel { RequestId = "Failed to create role!" });
             }
-    */
             //Assign roles
             result = await _userManager.AddToRoleAsync(user1, "Employee");
             if (!result.Succeeded)
