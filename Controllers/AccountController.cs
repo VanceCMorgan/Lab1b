@@ -11,7 +11,7 @@ using Lab1B.Data;
 using Lab1B.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-
+//Accounts
 namespace Lab1B.Controllers
 {
     public class AccountController : Controller
